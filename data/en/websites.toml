@@ -1,0 +1,26 @@
+[[good_websites]]
+  name = "The Primeagen"
+  url = "https://www.youtube.com/@ThePrimeagen"
+  description = "Entertaining and brutally honest takes on programming, systems, and career growth."
+
+[[good_websites]]
+  name = "MyAnimeList"
+  url = "https://myanimelist.net/animelist/Yuveer"
+  description = "A List of Anime and Manga I have watched or read"
+
+[[good_websites]]
+  name = "ByteByteGo"
+  url = "https://bytebytego.com"
+  description = "Clear system design explanations with visuals that actually make things click."
+
+[[good_websites]]
+  name = "Roadmap.sh"
+  url = "https://roadmap.sh"
+  description = "Structured learning paths for DevOps, backend, security, and cloud roles."
+
+[[good_websites]]
+  name = "OWASP"
+  url = "https://owasp.org"
+  description = "Essential application security knowledge, top 10 risks, and community resources."
+
+

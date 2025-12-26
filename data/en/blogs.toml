@@ -1,0 +1,8 @@
+# External blog articles from Medium
+[[blogs]]
+  title = "Tips Scaling DevSecOps to Infinity Repos"
+  summary = "Tips that help me scale application security tools across 100+ applications"
+  link = "https://medium.com/@thedevsecopshandbook/tips-scaling-devsecops-to-infinity-repos-a4b52a6800aa"
+  date = "2025-12-24"
+  tags = ["Security Culture", "Training"]
+  external = true

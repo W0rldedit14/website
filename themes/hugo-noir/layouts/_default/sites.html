@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div class="max-w-6xl mx-auto px-4 py-12">
+  <h1 class="text-5xl font-bold mb-6 text-text-primary-light dark:text-text-primary-dark">
+    Good Websites
+  </h1>
+
+  <p class="text-text-secondary-light dark:text-text-secondary-dark text-lg mb-10 max-w-6xl">
+    Websites, people, books that helped me grow, or shaped how I think about engineering and security, or were just genuinely fun to discover.
+  </p>
+
+  {{ $websiteData := index site.Data .Language.Lang "websites" }}
+
+  <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg
+              border border-border-primary-light dark:border-border-primary-dark">
+
+    <!-- Header -->
+    <div class="grid grid-cols-12 gap-4 pb-3 text-sm uppercase tracking-wide
+                text-text-secondary-light dark:text-text-secondary-dark border-b
+                border-border-primary-light dark:border-border-primary-dark">
+      <div class="col-span-4">Website</div>
+      <div class="col-span-8">Why it’s good</div>
+    </div>
+
+    <!-- Rows -->
+    <div class="divide-y divide-border-primary-light dark:divide-border-primary-dark">
+      {{ range $websiteData.good_websites }}
+      <div class="grid grid-cols-12 gap-4 py-5 items-start
+                  hover:bg-black/5 dark:hover:bg-white/5 transition">
+
+        <!-- Name -->
+        <div class="col-span-4 font-medium">
+          <a href="{{ .url }}" target="_blank" rel="noopener"
+             class="inline-flex items-center gap-2
+                    text-text-primary-light dark:text-text-primary-dark
+                    hover:text-accent-light dark:hover:text-accent-dark transition">
+            {{ .name }}
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round"
+                 class="opacity-60">
+              <path d="M7 17l9.2-9.2M17 17V7H7"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Description -->
+        <div class="col-span-8 text-text-secondary-light dark:text-text-secondary-dark prose">
+          {{ .description }}
+        </div>
+
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

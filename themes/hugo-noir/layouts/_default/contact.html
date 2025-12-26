@@ -1,0 +1,77 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 py-12">
+
+  <h1 class="text-5xl font-bold mb-6 text-text-primary-light dark:text-text-primary-dark">
+    Contact
+  </h1>
+
+  <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-8 rounded-lg border border-border-primary-light dark:border-border-primary-dark">
+
+    <!-- TEXT CONTENT -->
+    <div class="prose prose-lg max-w-none dark:prose-invert">
+
+      <p class="mb-6">
+        I'm always interested in discussing DevSecOps, security automation,
+        cloud architecture, or potential collaboration opportunities.
+      </p>
+
+      <h3>What I Can Help With</h3>
+
+      <ul>
+        <li><strong>Consulting:</strong> DevSecOps implementation, security automation strategies</li>
+        <li><strong>Speaking:</strong> Conference talks, workshops, webinars on DevSecOps topics</li>
+        <li><strong>Collaboration:</strong> Open-source projects, security tool development</li>
+        <li><strong>Mentoring:</strong> Career guidance for aspiring DevSecOps engineers</li>
+        <li><strong>Writing:</strong> Technical articles, documentation reviews</li>
+      </ul>
+
+      {{ if .Content }}
+        {{ .Content }}
+      {{ end }}
+
+      
+      <p class="mt-6">
+        You can contact me via X, or LinkedIn. I usually respond within a day.
+      </p>
+
+    </div>
+
+    <!-- CONTACT CARDS -->
+    <div class="border border-border-primary-light dark:border-border-primary-dark rounded-lg p-6 mt-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+
+
+
+        <!-- Twitter / X -->
+        <a href="{{ .Site.Params.X }}" target="_blank"
+           class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+          <svg class="w-7 h-7 shrink-0 text-text-secondary-light dark:text-text-secondary-dark"
+               fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.75">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 7.5a4.5 4.5 0 0 1 8-3Q22 4 23 3q0 2-2 4A13 13 0 0 1 1 19q5 0 7-2q-8-4-5-13q4 5 9 5Z"/>
+          </svg>
+          <div class="min-w-0">
+            <div class="font-medium truncate">Twitter</div>
+            <div class="text-sm opacity-70 truncate">@{{ .Site.Params.twitter_username }}</div>
+          </div>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="{{ .Site.Params.linkedin }}" target="_blank"
+           class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+          <svg class="w-7 h-7 shrink-0 text-text-secondary-light dark:text-text-secondary-dark"
+               fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12a1.57 1.57 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/>
+          </svg>
+          <div class="min-w-0">
+            <div class="font-medium truncate">LinkedIn</div>
+            <div class="text-sm opacity-70 truncate">in/{{ .Site.Params.linkedin_username }}</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+{{ end }}

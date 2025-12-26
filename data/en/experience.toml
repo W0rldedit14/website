@@ -1,0 +1,108 @@
+[[experience]]
+  role = "DevSecOps Engineer | Cloud Security Engineer"
+  company = "Enterprise Organization"
+  company_link = ""
+  period = "Jan 2022 - Present"
+  country = "South Africa"
+  
+  # Technical Skills Section
+  [[experience.technical_skills]]
+    category = "Application Security"
+    skills = "SAST/DAST • SCA • Secrets Management • Threat Modeling • OWASP Top 10 • SBOM Management • Dependency Analysis"
+  
+  [[experience.technical_skills]]
+    category = "Programming & Automation"
+    skills = "Python • Go • C# • JavaScript • TypeScript • Java • Bash • PowerShell • YAML • Azure Templates"
+  
+  [[experience.technical_skills]]
+    category = "DevSecOps Tools"
+    skills = "SonarQube • Nexus IQ • Prisma Cloud • Semgrep OSS • Artifactory • Checkov • Snyk • Twistlock"
+  
+  [[experience.technical_skills]]
+    category = "CI/CD Security"
+    skills = "GitHub Actions • Azure DevOps • AWS CodeCommit • AWS CodeBuild • Pipeline Hardening"
+  
+  [[experience.technical_skills]]
+    category = "Cloud Security"
+    skills = "AWS: GuardDuty • Macie • Security Hub • SCP • IAM Access Analyzer • Control Tower | Azure: Defender • Sentinel | Multi-cloud: CSPM"
+  
+  [[experience.technical_skills]]
+    category = "Container & Orchestration"
+    skills = "Kubernetes (AKS/EKS/ECS) • Docker • Image Scanning • Runtime Protection"
+  
+  [[experience.technical_skills]]
+    category = "Infrastructure Security"
+    skills = "Terraform • OPA (Open Policy Agent) • IaC Scanning • GitOps Security"
+  
+  [[experience.technical_skills]]
+    category = "API & WAF Security"
+    skills = "Cloudflare WAF/API Shield • Akamai API Security • OAS-based Protection • RASP"
+  
+  [[experience.technical_skills]]
+    category = "Security Monitoring"
+    skills = "Microsoft Sentinel • SIEM Integration • Threat Detection • MITRE ATT&CK Framework"
+  
+  [[experience.technical_skills]]
+    category = "Compliance Frameworks"
+    skills = "OWASP Top 10 • NIST • CIS Benchmarks"
+  
+  # Responsibility Sections
+  [[experience.sections]]
+    icon = "🔐"
+    title = "Application Security & Secure SDLC Implementation"
+    items = [
+      "Architected and scaled comprehensive application security program integrating SAST, SCA, secrets scanning, IaC analysis, CI/CD risk assessment, and container security across 4,000+ repositories, embedding security from IDE → VCS/PR → CI/CD pipelines → runtime (AKS/EKS/ECS, hosts) → SOC",
+      "Established secure coding standards and best practices aligned with OWASP Top 10 and NIST frameworks, partnering with GRC and Engineering teams for enterprise-wide adoption",
+      "Designed and implemented automated PR scanning with zero-touch deployment, eliminating manual security review bottlenecks while maintaining security rigor"
+    ]
+  
+  [[experience.sections]]
+    icon = "🎯"
+    title = "Vulnerability Management & Threat Remediation"
+    items = [
+      "Led enterprise vulnerability management program, establishing systematic triage, prioritization, and remediation tracking processes that reduced critical API vulnerabilities to zero using Akamai API Security",
+      "Performed ongoing threat modeling and risk assessments for cloud-native applications, developing and implementing mitigation strategies for identified risks",
+      "Collaborated directly with 30+ development teams via automated Jira integration, embedding security remediation work into sprint cycles and tracking findings to closure",
+      "Provided technical security guidance and support to development teams on complex application security issues, improving secure development adoption",
+      "Executed systematic vulnerability campaigns for compliance in non-production and production environments, including enterprise-wide IMDSv2 migration for all EC2 instances and removal of unused IAM users"
+    ]
+  
+  [[experience.sections]]
+    icon = "🚀"
+    title = "CI/CD Pipeline Security & DevSecOps Automation"
+    items = [
+      "Integrated security controls throughout CI/CD pipelines using SonarQube, Nexus IQ Lifecycle, Artifactory, Semgrep OSS, and Prisma Cloud with Azure templates for standardization, enforcing security gates at each SDLC stage",
+      "Automated repository onboarding and team access to findings workflows using Python scripting, enabling zero-manual-intervention security policy enforcement for new projects",
+      "Implemented container and image registry scanning (Trusted Images Framework), preventing vulnerable images from reaching production",
+      "Deployed runtime security defenders across AKS/EKS/ECS clusters and host infrastructure, providing continuous security monitoring and threat detection based on the MITRE ATT&CK framework"
+    ]
+  
+  [[experience.sections]]
+    icon = "☁️"
+    title = "Cloud Security & Infrastructure Protection"
+    items = [
+      "Configured and managed Cloudflare WAF enterprise deployment, implementing API Shield with OAS-based business logic protection and troubleshooting complex security rules",
+      "Enabled Cloud Security Posture Management (CSPM) across all AWS and Azure Landing Zone subscriptions with automated remediation capabilities for continuous compliance",
+      "Deployed AI Security Posture Management (AISPM) on Prisma Cloud, securing ML model deployments and AI workloads in Azure AI subscriptions",
+      "Integrated Prisma Cloud and Akamai API Security with Microsoft Sentinel for real-time security alerting, improving cloud and application security visibility",
+      "Secured infrastructure-as-code deployments through vendor-neutral IaC scanning and OPA policy enforcement across all Terraform configurations"
+    ]
+  
+  [[experience.sections]]
+    icon = "📊"
+    title = "Security Monitoring & Incident Response"
+    items = [
+      "Developed security monitoring and alerting systems by integrating Prisma Cloud, Cloudflare, and Akamai API Security with Microsoft Sentinel and Jira, enhancing security observability across the organization",
+      "Partnered with Cyber SOC team for active security incident monitoring and response, adjusting threat intelligence feed configurations to increase alert accuracy and reduce false positives",
+      "Monitored security posture using comprehensive tooling including Microsoft Defender for Office 365, Microsoft Cloud Apps, AWS GuardDuty, AWS Macie, and RiskIQ",
+      "Established executive-level security dashboards and automated monthly compliance reporting, providing leadership visibility into security metrics, trends, and risk posture"
+    ]
+  
+  [[experience.sections]]
+    icon = "🏆"
+    title = "Security Culture & Engineering Excellence"
+    items = [
+      "Delivered Security Champion program through secure coding workshops, awareness sessions, and comprehensive documentation, fostering security-first development culture across engineering teams",
+      "Conducted technical knowledge-sharing sessions and cross-skilling initiatives to elevate team security maturity and engineering excellence",
+      "Provided clear, concise technical communication to both technical and non-technical stakeholders on complex security topics and implementation strategies"
+    ]

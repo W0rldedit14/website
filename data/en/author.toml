@@ -1,0 +1,148 @@
+[author]
+  name = "Yuveer Chetraj"
+  location = "Cape Town, South Africa"
+  description = "DevSecOps Engineer passionate about integrating security into every stage of the development lifecycle. Building robust CI/CD pipelines and automating security practices to deliver secure, scalable solutions."
+  profile_image = "/images/testforsite.jpg"
+  about_description = "Gamer, mostly playing Guild Wars 2, Shadowverse WB and Where Winds meet right now"
+  
+  # Social links
+  github = "https://github.com/W0rldedit14"
+  linkedin = "https://www.linkedin.com/in/yuveer-chetraj-181a7716b/"
+
+[[honors]]
+  institution = "University of KwaZulu-Natal"
+  title = "Bachelor of Science in Computer Science and Information Technology | Summa Cum Laude"
+  date = "2019 - 2021"
+
+[[honors]]
+  institution = "The Linux Foundation"
+  title = "Golden Kubestronaut"
+  description = "Individuals who have successfully passed every CNCF certification (CKA, CKAD, CKS, KCNA, KCSA, PCA, ICA, CCA, CAPA, CGOA, CBA, OTCA, KCA, CNPA) and LFCS"
+  date = "2025"
+
+[[certifications]]
+  title = "HashiCorp Certified: Terraform Associate (003)"
+  url = "https://www.credly.com/badges/1be12d7c-adeb-4db3-9f9d-c9aa3beb9abb"
+  org = "HashiCorp"
+
+[[certifications]]
+  title = "ICA: Istio Certified Associate"
+  url = "https://www.credly.com/badges/657092d1-89e2-4ce1-929e-7a1bceaf2ee1"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "LFCS: Linux Foundation Certified Systems Administrator"
+  url = "https://www.credly.com/badges/0541126e-f973-42a3-bbb5-5b5a76443950"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "CBA: Certified Backstage Associate"
+  url = "https://www.credly.com/badges/d91d6a28-1038-4316-a7c4-06de520b6aa3"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "CCA: Cilium Certified Associate"
+  url = "https://www.credly.com/badges/22b349e4-6d34-4afe-a4e3-a253174e4b7d"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "KCA: Kyverno Certified Associate"
+  url = "https://www.credly.com/badges/ff0a23e0-a563-4302-b3cc-a06a9448c0bc"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "OTCA: OpenTelemetry Certified Associate"
+  url = "https://www.credly.com/badges/f1d5aef3-a5c4-4fda-ad26-86e5dd45713a"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "PCA: Prometheus Certified Associate"
+  url = "https://www.credly.com/badges/8be2b209-627f-4e0d-b103-e184dc951923"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "CAPA: Certified Argo Project Associate"
+  url = "https://www.credly.com/badges/57519b0f-bf02-45f6-9950-8d310726a432"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "CGOA: Certified GitOps Associate"
+  url = "https://www.credly.com/badges/dead1ca6-32a3-4ce7-b3fc-38f6fb7a01a6"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "CKAD: Certified Kubernetes Application Developer"
+  url = "https://www.credly.com/badges/f2efb015-1050-4ae3-8ced-78780a20915a"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "KCNA: Kubernetes and Cloud Native Associate"
+  url = "https://www.credly.com/badges/4a5abe92-fab6-465f-9937-b4468f31fd3f"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "KCSA: Kubernetes and Cloud Native Security Associate"
+  url = "https://www.credly.com/badges/18fd757c-d554-4f37-b648-1264b1c21a1a"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "CKS: Certified Kubernetes Security Specialist"
+  url = "https://www.credly.com/badges/ccaae945-83f4-484a-952e-7fc5a2a6e561"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "CKA: Certified Kubernetes Administrator"
+  url = "https://www.credly.com/badges/ccaae945-83f4-484a-952e-7fc5a2a6e561"
+  org = "The Linux Foundation"
+
+[[certifications]]
+  title = "AWS Certified SysOps Administrator – Associate"
+  url = "https://www.credly.com/badges/6c29ec83-ebcb-4266-a948-b7c07266539b"
+  org = "Amazon Web Services"
+
+[[certifications]]
+  title = "AWS Certified Developer – Associate"
+  url = "https://www.credly.com/badges/e9df9e68-112f-49df-b177-8d2c9aad0050"
+  org = "Amazon Web Services"
+
+[[certifications]]
+  title = "AWS Certified Solutions Architect – Associate"
+  url = "https://www.credly.com/badges/84672bd9-4a66-4e66-9614-4c04147a1576"
+  org = "Amazon Web Services"
+
+[[certifications]]
+  title = "AWS Certified Cloud Practitioner"
+  url = "https://www.credly.com/badges/3ceb7d8c-0870-4ea4-8fd8-544bb1093671"
+  org = "Amazon Web Services"
+
+[[certifications]]
+  title = "Certified in Cybersecurity"
+  org = "ISC2"
+
+[[voluntary]] 
+  organization = "DevSecCon - Cape Town"
+  role = "Organizer"
+  description = "Fostering application security community, knowledge sharing and mentoring"
+  url = "https://www.meetup.com/devseccon-cape-town-za"
+
+[[listening]]
+  song = "SLEEPWALKER (feat. brakence)"
+  artist = "Aries"
+  url = "https://open.spotify.com/track/31iGH4AA4C8MfnVgPyGPpR?si=b969fdbd67264cdb"
+
+[[listening]]
+  song = "intellectual greed"
+  artist = "brakence"
+  url = "https://open.spotify.com/track/1o0hKMX2d4wIViz31dR7sG?si=6127f90cc6454513"
+
+[[listening]]
+  song = "Happy Now"
+  artist = "Kygo Sandro Cavazza"
+  url = "https://open.spotify.com/track/14sOS5L36385FJ3OL8hew4?si=938025ed6b5a4bed"
+
+[[listening]]
+  song = "venus fly trap"
+  artist = "brakence"
+  url = "https://open.spotify.com/track/25oJjxP1cVjghqjfwEVPG6?si=d74aed9969ef4d0b"
+
+

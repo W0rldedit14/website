@@ -1,0 +1,33 @@
+# Top carousel row - Security & DevOps Tools
+row1 = [
+  { icon = "devicon-kubernetes-plain", name = "Kubernetes" },
+  { icon = "devicon-docker-plain", name = "Docker" },
+  { icon = "devicon-terraform-plain", name = "Terraform" },
+  { icon = "devicon-python-plain", name = "Python" },
+  { icon = "devicon-go-plain", name = "Go" },
+  { icon = "devicon-amazonwebservices-original", name = "AWS" },
+  { icon = "devicon-azure-plain", name = "Azure" },
+  { icon = "devicon-githubactions-plain", name = "GitHub Actions" },
+  { icon = "devicon-kubernetes-plain", name = "Kyverno" },
+  { icon = "devicon-kubernetes-plain", name = "OPA / Gatekeeper" },
+  { icon = "devicon-amazonwebservices-original", name = "SAST" },
+  { icon = "devicon-amazonwebservices-original", name = "SCA" },
+  { icon = "devicon-amazonwebservices-original", name = "IAC" }
+]
+
+# Bottom carousel row - Additional Technologies
+row2 = [
+  { icon = "devicon-prometheus-original", name = "Prometheus" },
+  { icon = "devicon-grafana-original", name = "Grafana" },
+  { icon = "devicon-helm-original", name = "Helm" },
+  { icon = "devicon-argocd-plain", name = "Argo CD" },
+  { icon = "devicon-gitlab-plain", name = "GitLab CI" },
+  { icon = "devicon-kubernetes-plain", name = "Kustomize" },
+  { icon = "devicon-linux-plain", name = "Linux" },
+  { icon = "devicon-bash-plain", name = "Bash" },
+  { icon = "devicon-amazonwebservices-original", name = "IAM" },
+  { icon = "devicon-docker-plain", name = "Trivy" },
+  { icon = "devicon-amazonwebservices-original", name = "Checkov" },
+  { icon = "devicon-amazonwebservices-original", name = "Cloudflare" },
+  { icon = "devicon-docker-plain", name = "Azure DevOps" }
+]

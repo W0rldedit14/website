@@ -1,0 +1,81 @@
+baseURL = "https://W0rldedit14.github.io/"
+languageCode = "en-us"
+title = "Yuveer Chetraj - DevSecOps Engineer"
+theme = "hugo-noir"
+relativeURLs = true
+uglyURLs = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# Basic site parameters
+[params]
+  name = "Yuveer Chetraj"
+  location = "Cape Town, South Africa"
+  description = "DevSecOps Engineer | Building secure pipelines and automating security into every stage of development"
+  profile_image = "/images/testforsite.jpg"
+  # Social links
+  medium = "https://medium.com/@thedevsecopshandbook"
+  github = "https://github.com/W0rldedit14"
+  linkedin = "https://www.linkedin.com/in/yuveer-chetraj-181a7716b/"
+  linkedin_username = "yuveer-chetraj"
+  useProjectsData = true
+  useBlogsData = true
+  twitter_username = "Yuveer141"
+
+
+# Menu configuration
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content"
+    
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        pageRef = "/"
+        weight = 1
+      
+      [[languages.en.menu.main]]
+        name = "About"
+        pageRef = "/about"
+        weight = 2
+      
+      [[languages.en.menu.main]]
+        name = "Experience"
+        pageRef = "/experience"
+        weight = 3
+      
+      [[languages.en.menu.main]]
+        name = "Projects"
+        pageRef = "/projects"
+        weight = 4
+      
+      [[languages.en.menu.main]]
+        name = "Blog"
+        pageRef = "/blogs"
+        weight = 5
+      
+      [[languages.en.menu.main]]
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 6
+      
+       [[languages.en.menu.main]]
+        name = "Good Websites"
+        pageRef = "/sites"
+        weight = 7
+      
+
+
+# Build settings
+[build]
+  writeStats = true
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"

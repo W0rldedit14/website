@@ -36,7 +36,7 @@
   
   [[experience.technical_skills]]
     category = "API & WAF Security"
-    skills = "Cloudflare WAF/API Shield • Akamai API Security • OAS-based Protection • RASP"
+    skills = "Cloudflare WAF • Akamai API Security • RASP"
   
   [[experience.technical_skills]]
     category = "Security Monitoring"

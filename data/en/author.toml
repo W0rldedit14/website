@@ -3,7 +3,7 @@
   location = "Cape Town, South Africa"
   description = "DevSecOps Engineer passionate about integrating security into every stage of the development lifecycle. Building robust CI/CD pipelines and automating security practices to deliver secure, scalable solutions."
   profile_image = "/images/testforsite.jpg"
-  about_description = "Gamer, mostly playing Guild Wars 2, Shadowverse WB and Where Winds meet right now"
+  about_description = "Gamer, mostly playing Guild Wars 2, Shadowverse WB and Fantasy 14 right now"
   
   # Social links
   github = "https://github.com/W0rldedit14"
@@ -120,10 +120,10 @@
   org = "ISC2"
 
 [[voluntary]] 
-  organization = "DevSecCon - Cape Town"
+  organization = "AI Security Engineers Community"
   role = "Organizer"
-  description = "Fostering application security community, knowledge sharing and mentoring"
-  url = "https://www.meetup.com/devseccon-cape-town-za"
+  description = "Fostering a application security community, knowledge sharing and mentoring. Presented 2 talks: Securing Generative AI: Understanding and Defending Against Prompt Injection(2025) and Embedding Federated Security Testing Across the SDLC(2024)"
+  url = "https://www.meetup.com/aiseceng-cape-town-za/"
 
 [[listening]]
   song = "SLEEPWALKER (feat. brakence)"

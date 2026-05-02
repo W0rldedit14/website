@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Yuveer Chetraj - DevSecOps Engineer</title>
+    <link>http://localhost:1313/about/index.html</link>
+    <description>Recent content in Abouts on Yuveer Chetraj - DevSecOps Engineer</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about.html</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about.html</guid>
+      <description>&lt;h2 id=&#34;hi-im-yuveer-chetraj&#34;&gt;Hi, I&amp;rsquo;m Yuveer Chetraj&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a DevSecOps Engineer and Cloud Security Specialist based in Cape Town, South Africa, with &lt;strong&gt;4+ years&lt;/strong&gt; of hands-on experience securing cloud-native applications across the entire software development lifecycle.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-i-do&#34;&gt;What I Do&lt;/h3&gt;&#xA;&lt;p&gt;I specialize in embedding security into every stage of development, from code to production:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Application Security at Scale&lt;/strong&gt; - Built and scaled comprehensive security programs across 4,000+ repositories, integrating SAST, SCA, secrets scanning, IaC analysis, and container security from IDE to runtime&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vulnerability Management&lt;/strong&gt; - Led enterprise vulnerability programs reducing critical API vulnerabilities to zero through systematic triage, prioritization, and automated remediation tracking&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CI/CD Pipeline Security&lt;/strong&gt; - Integrated security controls throughout pipelines using SonarQube, Nexus IQ, Prisma Cloud, and Semgrep OSS, enforcing security gates at each SDLC stage&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloud Security Architecture&lt;/strong&gt; - Configured CSPM and AISPM across AWS and Azure environments with automated remediation, plus Cloudflare WAF enterprise deployments&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Runtime Security&lt;/strong&gt; - Deployed security defenders across AKS/EKS/ECS clusters with MITRE ATT&amp;amp;CK-based threat detection and continuous monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Security Culture Building&lt;/strong&gt; - Delivered Security Champion programs and worked with 30+ development teams to foster security-first engineering practices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;my-approach&#34;&gt;My Approach&lt;/h3&gt;&#xA;&lt;p&gt;Security shouldn&amp;rsquo;t be a bottleneck - it should be an enabler. I believe in:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

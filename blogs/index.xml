@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Yuveer Chetraj - DevSecOps Engineer</title>
+    <link>http://localhost:1313/blogs/index.html</link>
+    <description>Recent content in Blogs on Yuveer Chetraj - DevSecOps Engineer</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/blogs/contact.html</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/contact.html</guid>
+      <description>&lt;h2 id=&#34;get-in-touch&#34;&gt;Get In Touch&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m always interested in discussing DevSecOps, security automation, cloud architecture, or potential collaboration opportunities.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lets-connect&#34;&gt;Let&amp;rsquo;s Connect&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:yuveerchetraj@gmail.com&#34;&gt;yuveerchetraj@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/yuveer-chetraj-181a7716b/&#34;&gt;linkedin.com/in/yuveer-chetraj-181a7716b/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/W0rldedit14&#34;&gt;github.com/W0rldedit14&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Medium:&lt;/strong&gt; &lt;a href=&#34;https://medium.com/@thedevsecopshandbook&#34;&gt;@thedevsecopshandbook&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-i-can-help-with&#34;&gt;What I Can Help With&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Consulting:&lt;/strong&gt; DevSecOps implementation, security automation strategies&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Speaking:&lt;/strong&gt; Conference talks, workshops, webinars on DevSecOps topics&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collaboration:&lt;/strong&gt; Open-source projects, security tool development&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mentoring:&lt;/strong&gt; Career guidance for aspiring DevSecOps engineers&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Writing:&lt;/strong&gt; Technical articles, documentation reviews&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;response-time&#34;&gt;Response Time&lt;/h3&gt;&#xA;&lt;p&gt;I typically respond to emails within 24-48 hours. For urgent matters, please reach out via LinkedIn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

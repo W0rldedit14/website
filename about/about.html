@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me - Yuveer Chetraj - DevSecOps Engineer</title>
+        
+                
+        <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+        <link rel="preload" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" as="style">     
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="icon" type="image/x-icon" href="../favicon.ico"> 
+                
+        <style>
+            html, body {
+                background-color: #FFFFFF; 
+                color: #1f2937; 
+            }
+            html.dark, html.dark body {
+                background-color: #121212; 
+                color: #f3f4f6; 
+            }
+            .border { 
+                border-color: #d4d4d8; 
+            }
+            html.dark .border {
+                border-color: #374151; 
+            }
+            .carousel-item {
+                display: inline-block;
+                margin: 0 1rem;
+            }            
+            .flex {
+                display: flex;
+            }
+            .flex-col {
+                flex-direction: column;
+            }
+            
+            @media (min-width: 768px) {
+                .md\:flex-row {
+                    flex-direction: row;
+                }
+            }
+            
+            .tech-carousel {
+                overflow: hidden;
+                width: 100%;
+                padding: 1rem 0;
+            }
+            
+            .carousel-track {
+                white-space: nowrap;
+            }
+        </style>
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <script>
+            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        </script>
+        <style>
+            :root {
+                color-scheme: light dark;
+            }
+            
+            .tech-icon {
+                filter: grayscale(100%) brightness(200%);
+                transition: all 0.3s ease;
+            }
+            .tech-icon:hover {
+                filter: none;
+            }
+            
+            @keyframes scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+            
+            .tech-carousel {
+                width: 100%;
+                padding: 1rem 0;
+            }
+            
+            .tech-track {
+                width: fit-content;
+                animation: scroll 20s linear infinite;
+            }
+            
+            .tech-track:hover {
+                animation-play-state: paused;
+            }
+            
+            .tech-slide {
+                float: left;
+            }
+        </style>
+    </head>
+    <body class="min-h-screen bg-bg-primary-light dark:bg-bg-primary-dark text-text-primary-light dark:text-text-primary-dark">
+        
+<head>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="icon" href="../images/favicon.ico">
+</head>
+<header class="py-6 relative">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div class="flex justify-between items-center">
+                
+                
+                
+                <a href="http://localhost:1313/" class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-300">
+                    Yuveer Chetraj
+                </a>
+                
+                
+                <button id="mobile-menu-button" class="md:hidden text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>            
+            
+            <nav class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-6">
+                
+                <a href="http://localhost:1313/index.html" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Home</a>
+                
+                <a href="http://localhost:1313/about/index.html" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 text-accent-light dark:text-accent-dark font-semibold">About</a>
+                
+                <a href="http://localhost:1313/experience/index.html" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Experience</a>
+                
+                <a href="http://localhost:1313/projects/index.html" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Projects</a>
+                
+                <a href="http://localhost:1313/blogs/index.html" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Blog</a>
+                
+                <a href="http://localhost:1313/contact/index.html" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Contact</a>
+                
+                <a href="http://localhost:1313/sites/index.html" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Good Websites</a>
+                
+            </nav>
+            <div class="hidden md:flex justify-end items-center">
+                <div class="flex items-center">
+                    <span class="text-lg text-text-secondary-light dark:text-text-secondary-dark mr-2">Local Time:</span>
+                    <div id="local-time" class="text-lg text-text-secondary-light dark:text-text-secondary-dark"></div>
+                </div>
+                
+                <button id="theme-toggle-button-desktop" class="ml-4 inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 p-2 rounded-md">
+                  <svg id="theme-toggle-dark-icon-desktop" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                    <path d="M21.7519 15.0021C20.597 15.484 19.3296 15.7501 18 15.7501C12.6152 15.7501 8.25 11.3849 8.25 6.00011C8.25 4.67052 8.51614 3.40308 8.99806 2.24817C5.47566 3.71798 3 7.19493 3 11.2501C3 16.6349 7.36522 21.0001 12.75 21.0001C16.8052 21.0001 20.2821 18.5245 21.7519 15.0021Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <svg id="theme-toggle-light-icon-desktop" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-5 h-5 hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"/>
+                  </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="mobile-menu" class="fixed inset-0 bg-bg-secondary-light dark:bg-bg-secondary-dark z-50 hidden transition-all duration-300 backdrop-blur-2xl">
+        <div class="flex flex-col h-full">
+            <div class="flex justify-between items-center p-6">
+                <span class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark">Menu</span>
+                <div class="flex items-center gap-4">
+                    
+                    <div class="language-switcher">
+                        <div class="language-switcher-btn text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 flex items-center p-2 rounded-md">
+                            EN
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6"/>
+                            </svg>
+                        </div>
+                        <div class="language-dropdown">
+                            
+                                
+                                
+                                
+                                
+                                <a href="http://localhost:1313/en" 
+                                   class="language-active text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300">
+                                    English
+                                </a>
+                            
+                        </div>
+                    </div>
+                    <button id="theme-toggle-button-mobile" class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 flex items-center p-2 rounded-md">
+                      <svg id="theme-toggle-dark-icon-mobile" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                        <path d="M21.7519 15.0021C20.597 15.484 19.3296 15.7501 18 15.7501C12.6152 15.7501 8.25 11.3849 8.25 6.00011C8.25 4.67052 8.51614 3.40308 8.99806 2.24817C5.47566 3.71798 3 7.19493 3 11.2501C3 16.6349 7.36522 21.0001 12.75 21.0001C16.8052 21.0001 20.2821 18.5245 21.7519 15.0021Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <svg id="theme-toggle-light-icon-mobile" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-5 h-5 hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"/>
+                      </svg>
+                    </button>
+                    <button id="mobile-menu-close" class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <nav class="flex flex-col p-6 space-y-4">
+                
+                <a href="http://localhost:1313/index.html" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Home</a>
+                
+                <a href="http://localhost:1313/about/index.html" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 text-accent-light dark:text-accent-dark font-semibold" data-menu-link>About</a>
+                
+                <a href="http://localhost:1313/experience/index.html" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Experience</a>
+                
+                <a href="http://localhost:1313/projects/index.html" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Projects</a>
+                
+                <a href="http://localhost:1313/blogs/index.html" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Blog</a>
+                
+                <a href="http://localhost:1313/contact/index.html" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Contact</a>
+                
+                <a href="http://localhost:1313/sites/index.html" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Good Websites</a>
+                
+            </nav>
+            <div class="mt-auto p-6">
+                <div class="flex items-center justify-center">
+                    <span class="text-lg text-text-secondary-light dark:text-text-secondary-dark mr-2">Local Time:</span>
+                    <div id="mobile-local-time" class="text-lg text-text-secondary-light dark:text-text-secondary-dark"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    
+    function updateLocalTime() {
+        const timeElements = document.querySelectorAll('#local-time, #mobile-local-time');
+        timeElements.forEach(element => {
+            if (element) {
+                const now = new Date();
+                const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                element.textContent = timeString;
+            }
+        });
+    }
+    updateLocalTime();
+    setInterval(updateLocalTime, 1000);
+
+    
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenuClose = document.getElementById('mobile-menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuLinks = document.querySelectorAll('[data-menu-link]');
+
+    function openMobileMenu() {
+        mobileMenu.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; 
+    }
+
+    function closeMobileMenu() {
+        mobileMenu.classList.add('hidden');
+        document.body.style.overflow = ''; 
+    }
+
+    mobileMenuButton.addEventListener('click', openMobileMenu);
+    mobileMenuClose.addEventListener('click', closeMobileMenu);
+
+    
+    menuLinks.forEach(link => {
+        link.addEventListener('click', closeMobileMenu);
+    });
+
+    
+    const themeToggleBtnDesktop = document.getElementById('theme-toggle-button-desktop');
+    const themeToggleDarkIconDesktop = document.getElementById('theme-toggle-dark-icon-desktop');
+    const themeToggleLightIconDesktop = document.getElementById('theme-toggle-light-icon-desktop');
+
+    const themeToggleBtnMobile = document.getElementById('theme-toggle-button-mobile');
+    const themeToggleDarkIconMobile = document.getElementById('theme-toggle-dark-icon-mobile');
+    const themeToggleLightIconMobile = document.getElementById('theme-toggle-light-icon-mobile');
+
+    
+    function updateIcons(isDarkMode) {
+        if (themeToggleDarkIconDesktop && themeToggleLightIconDesktop) {
+            if (isDarkMode) {
+                themeToggleLightIconDesktop.classList.remove('hidden');
+                themeToggleDarkIconDesktop.classList.add('hidden');
+            } else {
+                themeToggleLightIconDesktop.classList.add('hidden');
+                themeToggleDarkIconDesktop.classList.remove('hidden');
+            }
+        }
+        if (themeToggleDarkIconMobile && themeToggleLightIconMobile) {
+            if (isDarkMode) {
+                themeToggleLightIconMobile.classList.remove('hidden');
+                themeToggleDarkIconMobile.classList.add('hidden');
+            } else {
+                themeToggleLightIconMobile.classList.add('hidden');
+                themeToggleDarkIconMobile.classList.remove('hidden');
+            }
+        }
+    }
+
+    
+    function applyTheme(isDarkMode) {
+        if (isDarkMode) {
+            document.documentElement.classList.add('dark');
+            localStorage.setItem('color-theme', 'dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem('color-theme', 'light');
+        }
+        updateIcons(isDarkMode);
+    }
+
+    
+    let initialIsDarkMode = false;
+    if (localStorage.getItem('color-theme') === 'dark' || 
+        (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        initialIsDarkMode = true;
+    }
+    
+    if (initialIsDarkMode && !document.documentElement.classList.contains('dark')) {
+         document.documentElement.classList.add('dark');
+    }
+    applyTheme(initialIsDarkMode); 
+
+    
+    function themeToggleClickHandler() {
+        const isCurrentlyDark = document.documentElement.classList.contains('dark');
+        applyTheme(!isCurrentlyDark); 
+        
+        
+        if (window.innerWidth < 768) {
+            closeMobileMenu();
+        }
+    }
+
+    if (themeToggleBtnDesktop) {
+        themeToggleBtnDesktop.addEventListener('click', themeToggleClickHandler);
+    }
+    if (themeToggleBtnMobile) {
+        themeToggleBtnMobile.addEventListener('click', themeToggleClickHandler);
+    }
+    
+    
+    mobileMenu.addEventListener('click', function(event) {
+        
+        if (event.target === mobileMenu) {
+            closeMobileMenu();
+        }
+    });
+    
+    
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
+            closeMobileMenu();
+        }
+    });
+</script> 
+        <main>
+            
+<div class="w-1/2 mx-auto py-12">
+    <div class="max-w-3xl mx-auto p-8 border border-border-primary-light dark:border-border-primary-dark rounded-2xl bg-neutral-50 dark:bg-neutral-800">
+        <h1 class="text-4xl font-bold mb-4 text-text-primary-light dark:text-text-primary-dark">About Me</h1>
+        
+        
+        <div class="prose prose-invert max-w-none">
+            <h2 id="hi-im-yuveer-chetraj">Hi, I&rsquo;m Yuveer Chetraj</h2>
+<p>I&rsquo;m a DevSecOps Engineer and Cloud Security Specialist based in Cape Town, South Africa, with <strong>4+ years</strong> of hands-on experience securing cloud-native applications across the entire software development lifecycle.</p>
+<h3 id="what-i-do">What I Do</h3>
+<p>I specialize in embedding security into every stage of development, from code to production:</p>
+<ul>
+<li><strong>Application Security at Scale</strong> - Built and scaled comprehensive security programs across 4,000+ repositories, integrating SAST, SCA, secrets scanning, IaC analysis, and container security from IDE to runtime</li>
+<li><strong>Vulnerability Management</strong> - Led enterprise vulnerability programs reducing critical API vulnerabilities to zero through systematic triage, prioritization, and automated remediation tracking</li>
+<li><strong>CI/CD Pipeline Security</strong> - Integrated security controls throughout pipelines using SonarQube, Nexus IQ, Prisma Cloud, and Semgrep OSS, enforcing security gates at each SDLC stage</li>
+<li><strong>Cloud Security Architecture</strong> - Configured CSPM and AISPM across AWS and Azure environments with automated remediation, plus Cloudflare WAF enterprise deployments</li>
+<li><strong>Runtime Security</strong> - Deployed security defenders across AKS/EKS/ECS clusters with MITRE ATT&amp;CK-based threat detection and continuous monitoring</li>
+<li><strong>Security Culture Building</strong> - Delivered Security Champion programs and worked with 30+ development teams to foster security-first engineering practices</li>
+</ul>
+<h3 id="my-approach">My Approach</h3>
+<p>Security shouldn&rsquo;t be a bottleneck - it should be an enabler. I believe in:</p>
+<ul>
+<li><strong>Shift Left Security</strong> - Catching vulnerabilities early in the development process through automated scanning in PRs and CI/CD</li>
+<li><strong>Zero-Touch Automation</strong> - Building self-service security tools that eliminate manual bottlenecks while maintaining rigor</li>
+<li><strong>Developer Empowerment</strong> - Partnering with engineering teams through clear guidance, automated workflows, and actionable feedback</li>
+<li><strong>Continuous Improvement</strong> - Using data-driven insights to optimize security processes and reduce risk systematically</li>
+</ul>
+<h3 id="technical-expertise">Technical Expertise</h3>
+<p><strong>Application Security:</strong></p>
+<ul>
+<li>SAST/DAST, SCA, Secrets Management, Threat Modeling</li>
+<li>OWASP Top 10, SBOM Management, Dependency Analysis</li>
+</ul>
+<p><strong>Programming &amp; Automation:</strong></p>
+<ul>
+<li>Python, Go, C#, JavaScript, TypeScript, Java</li>
+<li>Bash, PowerShell, YAML, Azure Templates</li>
+</ul>
+<p><strong>DevSecOps Tooling:</strong></p>
+<ul>
+<li>SonarQube, Nexus IQ, Prisma Cloud, Semgrep OSS</li>
+<li>Artifactory, Checkov, Snyk, Twistlock</li>
+</ul>
+<p><strong>CI/CD Security:</strong></p>
+<ul>
+<li>GitHub Actions, Azure DevOps, AWS CodePipeline</li>
+<li>Pipeline hardening and security gate enforcement</li>
+</ul>
+<p><strong>Cloud Security:</strong></p>
+<ul>
+<li><strong>AWS:</strong> GuardDuty, Macie, Security Hub, SCP, IAM Access Analyzer, Control Tower</li>
+<li><strong>Azure:</strong> Defender, Sentinel, CSPM</li>
+<li>Multi-cloud security posture management</li>
+</ul>
+<p><strong>Container &amp; Orchestration:</strong></p>
+<ul>
+<li>Kubernetes (AKS/EKS/ECS), Docker</li>
+<li>Image scanning and runtime protection</li>
+</ul>
+<p><strong>Infrastructure Security:</strong></p>
+<ul>
+<li>Terraform, OPA (Open Policy Agent)</li>
+<li>IaC scanning and GitOps security</li>
+</ul>
+<p><strong>API &amp; WAF Security:</strong></p>
+<ul>
+<li>Cloudflare WAF/API Shield</li>
+<li>Akamai API Security</li>
+<li>OAS-based protection and RASP</li>
+</ul>
+<p><strong>Security Monitoring:</strong></p>
+<ul>
+<li>Microsoft Sentinel, SIEM integration</li>
+<li>Threat detection and MITRE ATT&amp;CK framework</li>
+</ul>
+<h3 id="certifications">Certifications</h3>
+<p><strong>Cloud Security:</strong></p>
+<ul>
+<li>AWS Solutions Architect Associate</li>
+<li>AWS Developer Associate</li>
+<li>AWS SysOps Administrator Associate</li>
+</ul>
+<p><strong>Kubernetes &amp; Container Security:</strong></p>
+<ul>
+<li>CKS (Certified Kubernetes Security Specialist)</li>
+<li>CKA (Certified Kubernetes Administrator)</li>
+<li>CKAD (Certified Kubernetes Application Developer)</li>
+<li>KCNA (Kubernetes and Cloud Native Associate)</li>
+<li>KCSA (Kubernetes and Cloud Native Security Associate)</li>
+</ul>
+<p><strong>Security &amp; Compliance:</strong></p>
+<ul>
+<li>ISC² Certified in Cybersecurity (CC)</li>
+</ul>
+<p><strong>DevOps &amp; Infrastructure:</strong></p>
+<ul>
+<li>LFCS (Linux Foundation Certified Systems Administrator)</li>
+<li>CBA (Certified Backstage Associate)</li>
+<li>CCA (Cilium Certified Associate)</li>
+<li>KCA (Kyverno Certified Associate)</li>
+<li>OTCA (OpenTelemetry Certified Associate)</li>
+<li>PCA (Prometheus Certified Associate)</li>
+<li>CAPA (Certified Argo Project Associate)</li>
+<li>CGOA (Certified GitOps Associate)</li>
+</ul>
+<h3 id="education">Education</h3>
+<p><strong>Bachelor of Science in Computer Science and Information Technology</strong><br>
+<em>Summa Cum Laude</em><br>
+University of KwaZulu-Natal | 2019 - 2021</p>
+<h3 id="community-involvement">Community Involvement</h3>
+<p><strong>DevSecCon Cape Town</strong> - Organizer<br>
+Fostering application security community and knowledge sharing in Cape Town</p>
+<p><strong>ISC² Cape Town Chapter</strong> - Active Member<br>
+Engaged in cybersecurity professional development and networking</p>
+<p><strong>The DevSecOps Handbook</strong> - <a href="https://medium.com/@thedevsecopshandbook">Medium Blog</a><br>
+Sharing DevSecOps best practices, tutorials, and insights with the global community</p>
+<h3 id="beyond-work">Beyond Work</h3>
+<p>When I&rsquo;m not securing pipelines or managing cloud infrastructure, you can find me:</p>
+<ul>
+<li>Writing technical articles on DevSecOps practices</li>
+<li>Contributing to open-source security projects</li>
+<li>Organizing security community events in Cape Town</li>
+<li>Mentoring aspiring security engineers</li>
+<li>Staying current with emerging security threats and tools</li>
+</ul>
+<h3 id="lets-connect">Let&rsquo;s Connect</h3>
+<p>I&rsquo;m always interested in discussing DevSecOps, application security, cloud architecture, or collaboration opportunities.</p>
+<ul>
+<li><strong>GitHub:</strong> <a href="https://github.com/W0rldedit14">W0rldedit14</a></li>
+<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yuveer-chetraj-181a7716b/">Yuveer Chetraj</a></li>
+<li><strong>Medium:</strong> <a href="https://medium.com/@thedevsecopshandbook">@thedevsecopshandbook</a></li>
+<li><strong>Email:</strong> <a href="mailto:yuveerchetraj@gmail.com">yuveerchetraj@gmail.com</a></li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+        </main>
+        
+<footer class="mt-32 text-center">
+    <div class="max-w-3xl mx-auto">
+        <div class="border-t border-border-primary-light dark:border-border-primary-dark pt-5">
+            <div class="flex flex-col items-center justify-center gap-2">
+                                
+                
+                
+                <p class="text-text-secondary-light dark:text-text-secondary-dark text-xm ">© 2026 Yuveer Chetraj</p>
+                <p class="text-text-secondary-light dark:text-text-secondary-dark text-xm pb-12">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark">Hugo</a>. Take a look at my <a href="https://github.com/W0rldedit14" target="_blank" class="animated-link text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark">GitHub</a></p>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .animated-link {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .animated-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 1px;
+        bottom: -1px;
+        left: 0;
+        background-color: #0284c7;  
+        transition: width 0.3s ease-in-out;
+    }
+    
+    .animated-link:hover::after {
+        width: 100%;
+    }
+    html.dark .animated-link::after {
+        background-color: #0ea5e9;  
+    }
+</style> 
+    </body>
+</html> 

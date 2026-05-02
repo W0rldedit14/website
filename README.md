@@ -70,6 +70,9 @@ Want to create your own portfolio using this setup? Follow these steps:
 
    Navigate to `http://localhost:1313` to see your site!
 
+   # In your pipeline when ready(GitHub Actions, etc.)
+    hugo --baseURL="$HUGO_BASE_URL" --minify
+
 ---
 
 ## 📁 Project Structure
